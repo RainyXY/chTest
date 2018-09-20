@@ -6,7 +6,7 @@ var app = {
     $('.djks').click(function () {
       var name = $('input').val();
       window.sessionStorage.setItem('name', name);
-      location.href = 'https://htmlpreview.github.io/?./answer.html';
+      location.href = './answer.html';
     });
   },
   answer2: function () {
